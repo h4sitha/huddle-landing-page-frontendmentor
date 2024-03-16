@@ -1,8 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    font-size: 16px;
+}
+
 svg {
-    height: 30px;
-    width: 30px;
+    height: 18px;
+    width: 18px;
     border: 1px solid black;
     border-radius: 50%;
-    padding: 12px;
+    padding: 8px;
     overflow: visible;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+button {
+    font-size: inherit;
+}
+
+h1,
+button {
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
